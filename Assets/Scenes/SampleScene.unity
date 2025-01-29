@@ -147,7 +147,7 @@ MonoBehaviour:
   areaLight: {fileID: 32837673}
   LightBallsOn: {fileID: 0}
   LightBallsOff: {fileID: 0}
-  Shade: {fileID: 838314681}
+  shade: {fileID: 0}
 --- !u!1 &99533907 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -3215555783603854218, guid: da92f055321e448059518f4084fdd31f, type: 3}
@@ -171,9 +171,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   areaLight: {fileID: 371746460}
-  LightBallsOn: {fileID: 0}
-  LightBallsOff: {fileID: 0}
-  Shade: {fileID: 99533909}
+  LightBallsOn: {fileID: 2100000, guid: 38d721395a9e94dfabc58f87cb991386, type: 2}
+  LightBallsOff: {fileID: 2100000, guid: d010cc36b3d7a4ea386b960e723c89c9, type: 2}
+  shade: {fileID: 99533909}
 --- !u!1 &265101120 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -2932998491564163895, guid: da92f055321e448059518f4084fdd31f, type: 3}
@@ -197,9 +197,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   areaLight: {fileID: 1186592391}
-  LightBallsOn: {fileID: 0}
-  LightBallsOff: {fileID: 0}
-  Shade: {fileID: 265101122}
+  LightBallsOn: {fileID: 2100000, guid: 38d721395a9e94dfabc58f87cb991386, type: 2}
+  LightBallsOff: {fileID: 2100000, guid: d010cc36b3d7a4ea386b960e723c89c9, type: 2}
+  shade: {fileID: 265101122}
 --- !u!1 &323531201 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -5413527474356003177, guid: da92f055321e448059518f4084fdd31f, type: 3}
@@ -223,9 +223,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   areaLight: {fileID: 1186592391}
-  LightBallsOn: {fileID: 0}
-  LightBallsOff: {fileID: 0}
-  Shade: {fileID: 323531203}
+  LightBallsOn: {fileID: 2100000, guid: 38d721395a9e94dfabc58f87cb991386, type: 2}
+  LightBallsOff: {fileID: 2100000, guid: d010cc36b3d7a4ea386b960e723c89c9, type: 2}
+  shade: {fileID: 323531203}
 --- !u!108 &371746460 stripped
 Light:
   m_CorrespondingSourceObject: {fileID: 5733911823876726600, guid: da92f055321e448059518f4084fdd31f, type: 3}
@@ -682,9 +682,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   areaLight: {fileID: 371746460}
-  LightBallsOn: {fileID: 0}
-  LightBallsOff: {fileID: 0}
-  Shade: {fileID: 548304518}
+  LightBallsOn: {fileID: 2100000, guid: 38d721395a9e94dfabc58f87cb991386, type: 2}
+  LightBallsOff: {fileID: 2100000, guid: d010cc36b3d7a4ea386b960e723c89c9, type: 2}
+  shade: {fileID: 548304518}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -830,7 +830,7 @@ MonoBehaviour:
   areaLight: {fileID: 32837673}
   LightBallsOn: {fileID: 2100000, guid: 38d721395a9e94dfabc58f87cb991386, type: 2}
   LightBallsOff: {fileID: 2100000, guid: d010cc36b3d7a4ea386b960e723c89c9, type: 2}
-  Shade: {fileID: 838314681}
+  shade: {fileID: 838314681}
 --- !u!108 &843293170 stripped
 Light:
   m_CorrespondingSourceObject: {fileID: -1071359958148435772, guid: da92f055321e448059518f4084fdd31f, type: 3}
@@ -2358,7 +2358,7 @@ AudioSource:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1354875732}
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: d345c36ba7da94720882c925817556e1, type: 3}
@@ -2478,9 +2478,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   areaLight: {fileID: 1186592391}
-  LightBallsOn: {fileID: 0}
-  LightBallsOff: {fileID: 0}
-  Shade: {fileID: 1453819966}
+  LightBallsOn: {fileID: 2100000, guid: 38d721395a9e94dfabc58f87cb991386, type: 2}
+  LightBallsOff: {fileID: 2100000, guid: d010cc36b3d7a4ea386b960e723c89c9, type: 2}
+  shade: {fileID: 1453819966}
 --- !u!1 &1491108344 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -5998301319071483956, guid: da92f055321e448059518f4084fdd31f, type: 3}
@@ -2504,9 +2504,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   areaLight: {fileID: 32837673}
-  LightBallsOn: {fileID: 0}
-  LightBallsOff: {fileID: 0}
-  Shade: {fileID: 1491108346}
+  LightBallsOn: {fileID: 2100000, guid: 38d721395a9e94dfabc58f87cb991386, type: 2}
+  LightBallsOff: {fileID: 2100000, guid: d010cc36b3d7a4ea386b960e723c89c9, type: 2}
+  shade: {fileID: 1491108346}
 --- !u!1 &1499292097 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5914173764048766335, guid: da92f055321e448059518f4084fdd31f, type: 3}
@@ -2530,9 +2530,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   areaLight: {fileID: 32837673}
-  LightBallsOn: {fileID: 0}
-  LightBallsOff: {fileID: 0}
-  Shade: {fileID: 1499292099}
+  LightBallsOn: {fileID: 2100000, guid: 38d721395a9e94dfabc58f87cb991386, type: 2}
+  LightBallsOff: {fileID: 2100000, guid: d010cc36b3d7a4ea386b960e723c89c9, type: 2}
+  shade: {fileID: 1499292099}
 --- !u!1 &1518385917 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -4242956098883549766, guid: da92f055321e448059518f4084fdd31f, type: 3}
